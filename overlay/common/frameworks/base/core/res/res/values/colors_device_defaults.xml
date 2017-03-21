@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2014 The CyanogenMod Project
+<!-- Copyright (C) 2016 The Pure Nexus Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
 
-     http://www.apache.org/licenses/LICENSE-2.0
+          http://www.apache.org/licenses/LICENSE-2.0
 
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
@@ -14,14 +13,11 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
-<!-- These resources are around just to allow their values to be customized
-     for different hardware and product builds. -->
+<!-- Colors specific to DeviceDefault themes. These are mostly pass-throughs to enable
+       overlaying new theme colors. -->
 <resources>
-<!-- Control whether status bar should distinguish HSPA data icon
-     from UMTS data icon on devices -->
-    <bool name="config_hspa_data_distinguishable">true</bool>
-
-<!-- Should "4G" be shown instead of "LTE" when the network is NETWORK_TYPE_LTE? -->
-    <bool name="config_show4GForLTE">true</bool>
+    <color name="primary_device_default_dark">#212121</color>
+    <color name="primary_device_default_settings">@color/primary_device_default_dark</color>
+    <color name="primary_dark_device_default_dark">#424242</color>
+    <color name="primary_dark_device_default_settings">@color/primary_dark_device_default_dark</color>
 </resources>
