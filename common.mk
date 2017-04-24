@@ -84,7 +84,7 @@ PRODUCT_PACKAGES += \
 
 # Telephony packages
 PRODUCT_PACKAGES += \
-    messaging \
+    Mms \
     CellBroadcastReceiver \
     Stk \
     telephony-ext
@@ -106,7 +106,6 @@ PRODUCT_PACKAGES += \
 # Snapdragon packages
 PRODUCT_PACKAGES += \
     MusicFX \
-    SnapdragonCamera \
     SnapdragonGallery \
     SnapdragonMusic
 
