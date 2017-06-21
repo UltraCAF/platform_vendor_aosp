@@ -80,7 +80,8 @@ PRODUCT_PACKAGES += \
     strace \
     Terminal \
     WallpaperPicker \
-    LiveWallpapersPicker
+    LiveWallpapersPicker \
+    UltraMan
 
 # Telephony packages
 PRODUCT_PACKAGES += \
