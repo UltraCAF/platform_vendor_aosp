@@ -11,7 +11,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dataroaming=false \
     ro.opa.eligible_device=true \
     ro.setupwizard.rotation_locked=true \
-    ro.caf.version=$(shell grep "<default revision=" .repo/manifest.xml | awk -F'"' '{print $$2}'| awk  -F "/" '{print $$3}')
+    ro.caf.version=$(shell grep "<default revision=" .repo/manifest.xml | awk -F'"' '{print $$2}'| awk  -F "/" '{print $$3}') \
+    ro.rom.name=UltraCAF \
+    ro.rom.Version=8
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
