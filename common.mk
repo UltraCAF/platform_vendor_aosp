@@ -145,6 +145,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGE_OVERLAYS += \
 	vendor/aosp/overlay/common
 
+# ChangeLOG
+PRODUCT_COPY_FILES += \
+    vendor/aosp/prebuilt/common/etc/changelog:system/etc/changelog
+
 # Proprietary latinime libs needed for Keyboard swyping
 ifneq ($(filter arm64,$(TARGET_ARCH)),)
 PRODUCT_COPY_FILES += \

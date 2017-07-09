@@ -1,0 +1,18 @@
+ #############################
+ ### UltraCAF AOSP CHANGELOG   
+ #############################
+ ### VERSION 8.0
+ #############################
+
+   [*] New app to Manage our rom
+   [*] Add Network Traffic Indicator
+   [*] Add Battery Style & Percentage style
+   [*] Add KeyPress Boost from PA
+   [*] Add FP Unlock Boost from PA
+   [*] Add Rotation Boost from PA
+   [*] Some fixes for memory leak
+   [*] Power Alearts
+   [*] Options for Location tile
+   [*] Add Scroll Cache Options
+   [*] Revert back to UD Kernel v3.5
+   [*] CAF LA.UM.5.8.r1-02200-8x98.0
