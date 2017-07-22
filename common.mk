@@ -87,7 +87,7 @@ PRODUCT_PACKAGES += \
 
 # Telephony packages
 PRODUCT_PACKAGES += \
-    Mms \
+    messaging \
     CellBroadcastReceiver \
     Stk \
     telephony-ext
