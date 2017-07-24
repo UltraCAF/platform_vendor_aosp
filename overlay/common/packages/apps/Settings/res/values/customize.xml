@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Whether to show a preference item for battery percentage
-        in ("Battery") for India RJIL -->
-    <bool name="config_show_battery_percentage">true</bool>
-</resources>
