@@ -13,7 +13,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.rotation_locked=true \
     ro.caf.version=$(shell grep "<default revision=" .repo/manifest.xml | awk -F'"' '{print $$2}'| awk  -F "/" '{print $$3}') \
     ro.rom.name=UltraCAF \
-    ro.rom.version=V9.0
+    ro.rom.version=V10.0
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1

@@ -1,13 +1,12 @@
  #############################
  ### UltraCAF AOSP CHANGELOG   
  #############################
- ### VERSION 9.0
+ ### VERSION 10.0
  #############################
 
-   [*] New Buttons calss
-   [*] New Gesture calss
-   [*] New Power Menu with customizing ability
-   [*] Tones of Improvements
-   [*] Immersive mode
-   [*] New Kernel Based on Stock Moto MM Kernel
-   [*] Deodex For now
+   [*] New Battery Options
+   [*] New Theme for Messeging App
+   [*] App Ops in Settings
+   [*] Fix the clock alarm FC
+   [*] Updated to LA.UM.5.8.r1-02400-8x98.0
+   [*] Clean files
