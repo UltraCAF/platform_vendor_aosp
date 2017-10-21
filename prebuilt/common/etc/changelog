@@ -1,12 +1,11 @@
  #############################
  ### UltraCAF AOSP CHANGELOG   
  #############################
- ### VERSION 10.0
+ ### VERSION 11.0-staging
  #############################
 
    [*] New Battery Options
-   [*] New Theme for Messeging App
-   [*] App Ops in Settings
-   [*] Fix the clock alarm FC
-   [*] Updated to LA.UM.5.8.r1-02400-8x98.0
-   [*] Clean files
+   [*] Updated to LA.UM.5.8.r1-02900-8x98.0
+   [*] more Rom Optimizations
+   [*] UltraDevs Kernel v6.0 3.10.107
+   [*] Odex back again
